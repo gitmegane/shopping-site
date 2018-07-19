@@ -25,7 +25,8 @@ header {
     list-style: none;
     display: inline-block;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 5px; }
     header .sp_navi_li_top li {
       display: inline-block;
       list-style: none;
