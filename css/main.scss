@@ -343,20 +343,32 @@ header{
           }
           
       }
+      .middle{
+        width:100%;
 
       h3 {
-
+        width:100%;
         background-color: $cha;
         padding-left: 20px;
         margin-bottom: 3px;
         background-repeat: no-repeat;
-        background-position: right 10px top 18px;
+
+        a{
+        height:40px;
+        display:flex;
+        align-items:center;
+        }
+      }
       }
       .h3pagelink{
+        width:100%;
         background-image: url("../images/top/next_icon.png");
+        background-position: right 12px top 15px;
       }
       .h3categories{
+        width:100%;
         background-image: url("../images/top/down_icon.png");
+        background-position: right 10px top 18px;
       }
       
       .item_search{
@@ -364,6 +376,7 @@ header{
         background-color: white;
       }
       .pagelink{
+        width:100%;
         margin-bottom: 10px;
       }
       .categories{
@@ -693,6 +706,10 @@ header{
           text-align:center;
           font-size:12px;
           color:$usucha;
+          input{
+            margin-top:5px;
+            
+          }
         }
       }
     }
